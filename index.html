@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Visões do Espaço</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Visões do Espaço</h1>
+        </div>
+        <div>
+            <h2><p>Imagens feitas pela câmeras da NASA no espaço com uma breve descrição todos os dias. <br>Experimente!</p></h2>
+        </div>
+    </header>
+    <main> 
+        <div class="divPai">
+            <div class ='divEntrada'>
+                <div class='divCampoTextoEData'>
+                    <label id='texto'>Entre com a data no Campo abaixo:</label>
+                    <input type='date' id='ddMMAAAA'>
+                </div>
+                <div class='divBtnBusca'>
+                    <button id='btnDeBusca'>BUSCAR</button>
+                </div>
+            </div>
+            <div class='caixa'>
+                <div class="divfoto">
+                    <h3 id='mensTitulo'></h3>
+                    <img id='imagem' src="" alt="">                       
+                    <p id='mensDescricao'></p>
+                </div>
+                <div class="divvideo">
+                    <h3 id="mensTitulo"></h3>
+                    <iframe id='filme' src="" frameborder="2"></iframe>
+                    <p id='mensDescricao'></p>
+                </div>
+            </div>
+        </div>
+    </main>    
+
+<script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+<script src='./apod.js'></script>
+</body>
+
+<footer>
+    <h3>Criado por Edson Vieira - Todos os Direitos Reservados &copy;Resilia Educação - 2022 </h3>
+</footer>
+</html>
