@@ -6,12 +6,12 @@ body{
 header, h1{
     font-family: 'Audiowide', cursive;
     text-align:center;
-    color: orange;
+    color: blue;
 }
 
 header, h2, p {
     font-family: 'Audiowide', cursive;
-    color: orange;
+    color: blue;
     text-align: center;
 }
 .divPai{
@@ -27,7 +27,7 @@ header, h2, p {
 }
 #texto {
     text-align: center;
-    color: orange;
+    color: blue;
     font-weight: bold;
     font-family: 'Audiowide', cursive;;
     margin-left: 35%; margin-right: 35%; margin-bottom: 1%;
@@ -37,7 +37,7 @@ header, h2, p {
     height: 30px;
     font-size: 20px;
     text-align: center;
-    color: orange;
+    color: blue;
     font-family: 'Audiowide', cursive;
    
 }
@@ -45,11 +45,11 @@ header, h2, p {
 #btnDeBusca{
     font-family: 'Audiowide', cursive;
     border: none;
-    height: 180px;
-    width: 14%;
+    height: 140px;
+    width: 140px;
     align-items: center;
-    font-size: 30px;
-    background-color: orange;
+    font-size: 25px;
+    background-color: blue;
     color:white;
     border-radius: 50%;
     margin-top: 5%;
@@ -58,8 +58,8 @@ header, h2, p {
 
 #btnDeBusca:active {
     font-family: 'Audiowide', cursive;
-    background-color: orangered;
-    color: black;
+    background-color: white;
+    color: blue;
     font-weight: bold;
 }
 
@@ -74,7 +74,7 @@ header, h2, p {
 }
 
 #mensTitulo {
-    color: orange;
+    color: blue;
     font-family: 'Audiowide', cursive;
     font-size: 30px;
 }
