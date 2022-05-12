@@ -1,27 +1,25 @@
-/*
 body{
-    background-image: url('https://t.ctcdn.com.br/Msr0jqibytZZJd831N2MVHdpMTo=/1400x788/smart/i435231.jpeg');
+    background-image: url('https://static.natgeo.pt/files/styles/image_3200/public/01-milky-way-NationalGeographic_1959323.webp?w=1450&h=967&q=100');
+    background-size: cover;
 }
-*/
 
 header, h1{
-    font-family: 'trebuchet MS';
+    font-family: 'Audiowide', cursive;
     text-align:center;
     color: orange;
 }
 
 header, h2, p {
-    font-family: 'trebuchet MS';
+    font-family: 'Audiowide', cursive;
     color: orange;
     text-align: center;
 }
 .divPai{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .divEntrada {
     text-align: center;
-    margin-top: 60px;
 }
 .divCampoTextoEData {
     display: flex;
@@ -31,7 +29,7 @@ header, h2, p {
     text-align: center;
     color: orange;
     font-weight: bold;
-    font-family: 'trebuchet MS';
+    font-family: 'Audiowide', cursive;;
     margin-left: 35%; margin-right: 35%; margin-bottom: 1%;
 }
 #ddMMAAAA {
@@ -40,23 +38,26 @@ header, h2, p {
     font-size: 20px;
     text-align: center;
     color: orange;
+    font-family: 'Audiowide', cursive;
    
 }
 
 #btnDeBusca{
+    font-family: 'Audiowide', cursive;
     border: none;
-    height: 50px;
-    width: 120px;
-    margin-left: 10px;
-    font-size: 18px;
+    height: 180px;
+    width: 14%;
+    align-items: center;
+    font-size: 30px;
     background-color: orange;
     color:white;
-    border-radius: 30px;
+    border-radius: 50%;
     margin-top: 5%;
    
 }
 
 #btnDeBusca:active {
+    font-family: 'Audiowide', cursive;
     background-color: orangered;
     color: black;
     font-weight: bold;
@@ -66,12 +67,16 @@ header, h2, p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 25px;
+}
+.divfoto{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #mensTitulo {
     color: orange;
-    font-family: 'trebuchet MS';
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
 }
 
 
@@ -80,14 +85,22 @@ header, h2, p {
     height: 500px;
     margin: 20px 20px;
     border-radius: 35px;
+    align-items: center;
+}
+#filme{
+    width:600px;
+    height: 500px;
+    margin: 20px 20px;
+    border-radius: 35px;
 }
 
 #mensDescricao {
-    font-size: 25px;
+    font-size: 15px;
+    width: 25%;
 }
 
 footer{
     text-align: center;
-    font-family: 'trebuchet MS';
-    color: orangered;
+    font-family: 'Audiowide', cursive;
+    color: white;
 }
