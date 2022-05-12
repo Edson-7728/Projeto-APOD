@@ -1,3 +1,9 @@
+function vaipage (){
+    var vaipage = '';
+    vaipage = 'index-1.html';
+    window.location.href = vaipage;
+}
+
 let botao = $ ('#btnDeBusca').click(function () {
          
     let data = $ ('#ddMMAAAA').val ();

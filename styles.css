@@ -1,5 +1,54 @@
+.divhdr{
+    display: flex;
+    justify-content: space-evenly;
+}
+.desfog{
+    height: 150px; width: 150px;
+    margin-top: 5%;
+}
+#titulolp{
+    color: white;
+    font-size: 100px;;
+}
+.divlogonasa{
+    display: flex;
+    justify-content: center;
+}
 .logoNasa{
     height: 300px; width: 300px;
+}
+.divintro > h2 {
+    color: white;
+    font-size: 40px;
+}
+.divfonte > h5 {
+    display: flex;
+    color: white;
+    justify-content: right;
+}
+.divbtntestar{
+    display: flex;
+    justify-content: center;
+}
+#btntestar{
+    border: none;
+    height: 128px; width: 128px;
+    border-radius: 50%;
+    font-family: 'Audiowide', cursive;
+    font-size: 25px;
+    color: white;
+    background-color: blue;
+}
+#btntestar:active{
+    color: blue;
+    background-color: white;
+}
+.divnav{
+    font-family: 'Audiowide', cursive;
+    color: white;
+}
+.divul > li{
+    color: blue;
 }
 body{
     background-image: url('https://static.natgeo.pt/files/styles/image_3200/public/01-milky-way-NationalGeographic_1959323.webp?w=1450&h=967&q=100');
